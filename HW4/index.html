@@ -1,0 +1,46 @@
+<!DOCTYPE html
+     PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title></title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+
+<body>
+    <div id="bar"></div>
+    <br>
+    <p>The chart shows total percipition over the last three years in Atlanta. From the chart, we can see that 2021 was the driest year.</p>
+    <br>
+    <br>
+    <div class="scatterplot">
+        <div id="scatter"></div>
+        <div id="legend">
+            <div id="block"></div>
+            <svg height="15" width="20"><circle cx="10" cy="10" r="5" fill="#6929c4"/></svg>
+            <p id="textcolor1">2020</p>
+          </div>
+          <div id="block"></div>
+          <div id="legend">
+            <svg height="15" width="20"><circle cx="10" cy="10" r="5" fill="#ff7c43"></svg>
+            <p id="textcolor2">2021</p>
+          </div>
+          <div id="block"></div>
+          <div id="legend">
+            <svg height="15" width="20"><circle cx="10" cy="10" r="5" fill="#1192e8"></svg>
+            <p id="textcolor3">2022</p>
+          </div>
+    </div>
+    <p>The chart shows the effect of dew point on visibility over last three years in Atlanta. According to the graph, the dew point has no siginficant effect on visibility.</p>
+    <br>
+    <br>
+    <select id="ButtonOfChoice"></select>
+    <div id="line"></div>
+    <br>
+    <p>The chart visualizes the maximum and minimum temperatures and the windspeed in Atlanta at the selected year (dropdown option). </p>
+
+    <script src="allCharts.js"></script>
+
+</body>
+</html>
