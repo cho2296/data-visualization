@@ -1,0 +1,55 @@
+.bar 
+{
+    fill: steelblue;
+}
+
+text{
+  font-family: 'Roboto';  
+}
+
+circle{
+    fill: #69b3a2;
+}
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 80px;
+  height: 45px;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: lightsteelblue;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+.scatterplot {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+#legend {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#block {
+  width: 20px;
+}
+
+#textcolor1{
+  color: #6929c4;
+  font-weight: bolder;
+}
+
+#textcolor2{
+  color: #ff7c43;
+  font-weight: bolder;
+}
+
+#textcolor3{
+  color: #1192e8;
+  font-weight: bolder;
+}
